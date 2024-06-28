@@ -27,23 +27,23 @@
 
 ### EXPERIENCES
 
-- [Layout Project](https://elizabethmedvedeva.github.io/mogo-project/dist/index.html) | HTML, LESS | [GitHub](https://github.com/ElizabethMedvedeva/mogo-project)
-- [Weather App](https://elizabethmedvedeva.github.io/weather_forecast/) | React, Redux, Axios, Typescript | [GitHub](https://github.com/ElizabethMedvedeva/weather_forecast) 
-- [CV Elizaveta Medvedeva](https://elizabethmedvedeva.github.io/cv_medvedeva/) | React, Typescript | [GitHub](https://github.com/ElizabethMedvedeva/cv_medvedeva)
+- [Layout Project](https://elizabethmedvedeva.github.io/mogo-project/dist/index.html) / HTML, LESS / [GitHub](https://github.com/ElizabethMedvedeva/mogo-project)
+- [Weather App](https://elizabethmedvedeva.github.io/weather_forecast/) / React, Redux, Axios, Typescript / [GitHub](https://github.com/ElizabethMedvedeva/weather_forecast) 
+- [CV Elizaveta Medvedeva](https://elizabethmedvedeva.github.io/cv_medvedeva/) / React, Typescript / [GitHub](https://github.com/ElizabethMedvedeva/cv_medvedeva)
 
 ### EDUCATION
 
 ##### FRONTEND DEVELOPER COURSE
 
-January 2023 - October 2023 | [TeachMeSkills](https://drive.google.com/file/d/1_c3E5TK_Ytn4c72AAp9HbnR88l9CAwwP/view?usp=sharing)
+January 2023 - October 2023 / [TeachMeSkills](https://drive.google.com/file/d/1_c3E5TK_Ytn4c72AAp9HbnR88l9CAwwP/view?usp=sharing)
 
 ##### MASTER DEGREE OF CHEMISTRY
 
-September 2018 - July 2020 | Graduate School of the National Academy of Sciences of Belarus
+September 2018 - July 2020 / Graduate School of the National Academy of Sciences of Belarus
 
 ##### BACHELOR'S DEGREE
 
-September 2014 - July 2018 |
+September 2014 - July 2018 /
 Mogilev State University named by A. A. Kuleshova, Faculty of Math and Natural Sciences
 
 ### LANGUAGES
