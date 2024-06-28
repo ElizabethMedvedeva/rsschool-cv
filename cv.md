@@ -6,9 +6,9 @@
 
 ### CONTACT
 
-+37061676086
-elizabeth.medvedeva12@gmail.com
-Vilnius, Lithuania
+- +37061676086
+- elizabeth.medvedeva12@gmail.com
+- Vilnius, Lithuania
 
 ### ABOUT
 
