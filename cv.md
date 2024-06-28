@@ -2,7 +2,7 @@
 
 ## Frontend Developer
 
-![Photo](https://i.imgur.com/nP1bIq6.png =50)
+![Photo](https://i.imgur.com/nP1bIq6.png){:height="50px"}
 
 ### CONTACT
 
