@@ -14,7 +14,7 @@
 
 > I am a highly motivated team player with strong communication skills and a proven ability to meet deadlines. I am actively seeking employment with a forward-thinking company in the field of frontend development to grow as a professional, develop my hard skills, and become an expert in frontend development.
 
-### PROFISSIONAL SKILLS
+### PROFESSIONAL SKILLS
 
 - HTML
 - CSS / SASS / LESS
