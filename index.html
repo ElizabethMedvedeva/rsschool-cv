@@ -95,7 +95,14 @@
             <div class="codeExampleDiv">
                 <h3>code example</h3>
                 <pre>
-                    <code></code>
+                    <code>
+                        let fibonacciStorage = [0, 1];
+                        let fib = function (n) {
+                          if (!fibonacciStorage[n] && n > 0) {
+                            fibonacciStorage[n] = fib(n - 1) + fib(n - 2);
+                          }
+                          return fibonacciStorage[n];
+                        };</code>
                 </pre>
             </div>
         </div>
