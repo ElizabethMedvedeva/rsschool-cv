@@ -6,31 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medvedeva Elizaveta CV</title>
     <link rel="stylesheet" href="icons/style.css">
+    <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+    </style>
 </head>
 
 <body>
     <div class="mainContainer">
         <div class="infoContainer">
-            <header>
-                <img src="https://i.imgur.com/G2xD6j8.png" alt="cvPhoto">
+            <header class="header">
+                <img class="avatarPhoto" src="https://i.imgur.com/G2xD6j8.png" alt="cvPhoto">
                 <h1>Elizaveta Medvedeva</h1>
                 <h2>Frontend Developer</h2>
             </header>
             <main>
-                <h3>CONTACTS</h3>
-                <ul>
-                    <li class="icon-phone">
-                        +37061676086
-                    </li>
-                    <li class="icon-envelope-o">
-                        elizabeth.medvedeva12@gmail.com
-                    </li>
-                    <li class="icon-map-pin">
-                        Vilnius, Lithuania
-                    </li>
-                </ul>
+                <div class="contactsDiv">
+                    <h3>contacts</h3>
+                    <ul>
+                        <li class="icon-phone">
+                            +37061676086
+                        </li>
+                        <li class="icon-envelope-o">
+                            elizabeth.medvedeva12@gmail.com
+                        </li>
+                        <li class="icon-map-pin">
+                            Vilnius, Lithuania
+                        </li>
+                    </ul>
+                </div>
                 <div class="about">
+                    <h3>about</h3>
                     <p>I am a highly motivated team player with strong communication skills and a proven ability to meet
                         deadlines. I am actively seeking employment with a forward-thinking company in the field of
                         frontend development to grow as a professional, develop my hard skills, and become an expert in
@@ -39,8 +46,8 @@
             </main>
         </div>
         <div class="detailsContainer">
-            <div class="proffesionalSkillsDiv">
-                <h3>PROFESSIONAL SKILLS</h3>
+            <div class="professionalSkillsDiv">
+                <h3>professional skills</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS / SASS / LESS</li>
@@ -54,7 +61,7 @@
             </div>
             <div class="educationDiv">
                 <h3>EDUCATION</h3>
-                <div>
+                <div class="education">
                     <h4>
                         FRONTEND DEVELOPER COURSE
                     </h4>
@@ -62,13 +69,13 @@
                             href="https://drive.google.com/file/d/1_c3E5TK_Ytn4c72AAp9HbnR88l9CAwwP/view?usp=sharing">TeachMeSkills</a>
                     </p>
                 </div>
-                <div>
+                <div class="education">
                     <h4>
                         MASTER DEGREE OF CHEMISTRY
                     </h4>
                     <p>September 2018 - July 2020 / Graduate School of the National Academy of Sciences of Belarus </p>
                 </div>
-                <div>
+                <div class="education">
                     <h4>
                         BACHELOR'S DEGREE
                     </h4>
@@ -85,21 +92,32 @@
                 </ul>
             </div>
             <div class="codeExampleDiv">
+                <h3>code example</h3>
                 <pre>
                     <code></code>
                 </pre>
             </div>
         </div>
     </div>
-    <footer>
-        <p>© 2024</p>
-        <a href="https://www.linkedin.com/in/elizabeth-medvedeva12/" target="_blank" class="icon-linkedin">
-        </a>
-        <a href="https://github.com/ElizabethMedvedeva" target="_blank" class="icon-github">
-        </a>
-        <a href="https://rs.school/courses/javascript-ru" target="_blank">
-            <img src="https://themrcrowley.github.io/rsschool-cv/assets/icons/rs_school_js.svg" alt="rsLogo">
-        </a>
+    <footer class="footerDiv">
+        <div class="footerLinks">
+            <p class="footerLinks">© 2024</p>
+        </div>
+        <div class="footerLinks">
+            <a href="https://www.linkedin.com/in/elizabeth-medvedeva12/" target="_blank" class="icon-linkedin">
+            </a>
+        </div>
+        <div class="footerLinks">
+            <a href="https://github.com/ElizabethMedvedeva" target="_blank" class="icon-github">
+            </a>
+        </div>
+        <div class="footerLinks">
+            <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                <img class="schoolLogo" src="https://themrcrowley.github.io/rsschool-cv/assets/icons/rs_school_js.svg"
+                    alt="rsLogo">
+            </a>
+        </div>
+
     </footer>
 </body>
 
