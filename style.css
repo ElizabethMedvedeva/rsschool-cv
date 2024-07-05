@@ -8,11 +8,6 @@
 }
 .infoContainer {
   background-color: #bcb9d8;
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .avatarPhoto {
   border-radius: 150px;
@@ -52,6 +47,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 50px 0;
 }
 .about h3 {
   color: #5b618b;
@@ -91,7 +87,6 @@
   margin: 10px 0 5px 0;
 }
 .education a {
-  text-decoration: none;
   color: #000000;
 }
 .education p {
@@ -105,6 +100,19 @@
   margin: 5px 0;
   font-family: "Playfair Display", serif;
 }
+.finishedProjectDiv h3 {
+  color: #5b618b;
+  text-transform: uppercase;
+  border-bottom: 2px solid #5b618b;
+  font-family: "Roboto Mono", monospace;
+}
+.finishedProjectDiv li {
+    margin: 5px 0;
+    font-family: "Playfair Display", serif;
+  }
+  .finishedProjectDiv a {
+    color: #000000;
+  }
 .footerDiv {
   display: flex;
   align-items: center;
