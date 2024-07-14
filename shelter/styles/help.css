@@ -1,18 +1,43 @@
 .help_container {
-    background: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 611px;
-    padding: 60px 0;
-    color: #545454;
-  }
-  .help_header {
-    margin-bottom: 60px;
-    max-width: 308px;
-  }
-  .help_cards {
-    display: grid;
-    grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(5, 1fr);
-  }
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 611px;
+  padding: 60px 0;
+  color: #545454;
+  font-family: var(--Georgia);
+}
+.help_header {
+  margin-bottom: 60px;
+  max-width: 308px;
+  color: var(--emperor);
+  text-align: center;
+}
+.help_header h3 {
+  font-size: 35px;
+}
+.help_cards {
+ max-width: 1026px;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}
+.help_card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 30px;
+}
+.help_card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.help_card p {
+  margin-top: 28px;
+}
