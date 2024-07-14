@@ -1,0 +1,45 @@
+.header_container {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+.header_logo {
+  max-width: 184px;
+}
+.header_logo h1 {
+  font-family: var(--Georgia);
+  color: var(--mandys_pink);
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.header_logo p {
+  font-family: var(--Lato);
+  color: var(--white);
+  font-size: 13px;
+}
+.header_navigation {
+  width: 443px;
+}
+.header_nav {
+    width: 100%;
+}
+.header_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.header_list a {
+    color: var(--silver);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: var(--Lato);
+    font-size: 15px;
+    padding: 10px;
+}
+.header_list a:hover{
+    border-bottom: 2px solid var(--mandys_pink);
+    color: var(--white);
+}
