@@ -1,0 +1,18 @@
+.notOnly_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.notOnly_info {
+    max-width: 322px;
+}
+.notOnly_info p {
+    margin: 42px 0;
+}
+.notOnly_btn {
+    background-color: #F1CDB3;
+    width: 207px;
+    height: 52px;
+    border-radius: 100px;
+}

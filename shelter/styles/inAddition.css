@@ -1,0 +1,43 @@
+.inAddition_container {
+  background: var(--wild_sand);
+  display: flex;
+  padding: 80px 0;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--Georgia);
+}
+.inAddition__info {
+  max-width: 380px;
+  margin-left: 30px;
+}
+.inAddition__info h3 {
+  margin: 20px 0;
+  color: var(--emperor);
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+}
+.inAddition__info h5 {
+  color: var(--emperor);
+  font-size: 15px;
+  font-style: normal;
+}
+.inAddition__info p {
+  font-family: var(--Lato);
+  color: var(--silver_chalice);
+  font-style: italic;
+  font-size: 12px;
+}
+.inAddition_bank {
+  background-color: var(--mandys_pink);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 15px;
+  border-radius: 9px;
+  margin: 20px 0;
+}
+.inAddition_bank h4 {
+  color: var(--emperor);
+  font-size: 20px;
+}

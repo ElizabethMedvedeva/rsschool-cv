@@ -1,0 +1,15 @@
+@import url("./styles/variables.css");
+@import url("./styles/footer.css");
+@import url("./styles/about.css");
+@import url("./styles/notOnly.css");
+@import url("./styles/ourFriends.css");
+@import url("./styles/help.css");
+@import url("./styles/inAddition.css");
+
+.main {
+  margin: 0 auto;
+  width: 1280px;
+}
+.gradient_container {
+  background: radial-gradient(circle at 15% center, #513d2f 0%, #1a1a1c 100%);
+}
