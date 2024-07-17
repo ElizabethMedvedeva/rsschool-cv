@@ -27,4 +27,8 @@ max-width: 310px;
     border-radius: 100px;
     border: none;
     color: var(--mine_shaft);
+    cursor: pointer;
+}
+.notOnly_btn:hover {
+    background-color: var(--negroni);
 }

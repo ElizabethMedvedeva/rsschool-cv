@@ -1,88 +1,104 @@
 .ourFriends_container {
-    background: var(--wild_sand);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 60px 0;
-    font-family: var(--Georgia);
-  }
-  
-  .ourFriends_main {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 60px 0;
-  }
-  .ourFriends_header{
-    max-width: 400px;
-    text-align: center;
-  }
-  .ourFriends_header h3{
-    color: var(--emperor);
-    font-size: 35px;
-    line-height: 64px;
-    font-weight: 100;
-  }
-  .pet_cards {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 60px 0;
-  }
-  .pet_card {
-    background: var(--alabaster);
-    border-radius: 9px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin: 0 40px;
-    max-width: 270px;
-  }
-  .pet_card_name {
-    margin: 20px 0;
-    color: var(--emperor);
-  }
-  .pet_btn {
-    width: 187px;
-    height: 52px;
-    border: 2px solid var(--mandys_pink);
-    border-radius: 100px;
-    background: none;
-    margin: 30px 0;
-    color: var(--mine_shaft);
-  }
-  .ourFriends_btn button {
-    background: var(--mandys_pink);
-    border: none;
-    border-radius: 100px;
-    width: 261px;
-    height: 52px;
-    color: var(--mine_shaft);
-  }
-  .ourFriends_arrow {
-    display: inline-block;
-    position: relative;
-    border: 2px solid var(--mandys_pink);
-    background: none;
-    border-radius: 50%;
-    height: 52px;
-    width: 52px;
-    cursor: pointer;
-    padding: 0;
-  }
-  .ourFriends_arrow img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .ourFriends_arrow.rotate img {
-    transform: translate(-50%, -50%) rotate(180deg);
-  }
+  background: var(--wild_sand);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+  font-family: var(--Georgia);
+}
 
-  .pet_cardsSet {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    align-items: center;
-    justify-content: center;
-  }
+.ourFriends_main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 60px 0;
+}
+.ourFriends_header {
+  max-width: 400px;
+  text-align: center;
+}
+.ourFriends_header h3 {
+  color: var(--emperor);
+  font-size: 35px;
+  line-height: 64px;
+  font-weight: 100;
+}
+.pet_cards {
+  display: flex;
+  margin: 60px 0;
+  justify-content: space-between;
+}
+.pet_card {
+  background: var(--alabaster);
+  border-radius: 9px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+}
+.pet_card.main {
+  margin: 0 40px;
+}
+.pet_card_name {
+  margin: 20px 0;
+  color: var(--emperor);
+}
+.pet_btn {
+  width: 187px;
+  height: 52px;
+  border: 2px solid var(--mandys_pink);
+  border-radius: 100px;
+  background: none;
+  margin: 30px 0;
+  color: var(--mine_shaft);
+  cursor: pointer;
+}
+.pet_btn:hover{
+  background-color: var(--negroni);
+  border: none;
+}
+.ourFriends_btn button {
+  background: var(--mandys_pink);
+  border: none;
+  border-radius: 100px;
+  width: 261px;
+  height: 52px;
+  color: var(--mine_shaft);
+  cursor: pointer;
+}
+.ourFriends_btn button:hover{
+  background-color: var(--negroni);
+}
+.ourFriends_arrow {
+  display: inline-block;
+  position: relative;
+  border: 2px solid var(--mandys_pink);
+  background: none;
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+  cursor: pointer;
+  padding: 0;
+}
+.ourFriends_arrow:hover{
+  background-color: var(--negroni);
+  border: 2px solid var(--negroni);
+}
+.ourFriends_arrow img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 6px;
+}
+.ourFriends_arrow.rotate img {
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.pet_cardsSet {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}

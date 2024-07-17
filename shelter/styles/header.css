@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   position: sticky;
+  width: 1280px;
 }
 .header_logo {
   max-width: 184px;
@@ -11,7 +12,7 @@
 .header_logo h1 {
   font-family: var(--Georgia);
   color: var(--mandys_pink);
-  font-size: 35px;
+  font-size: 32px;
   margin-bottom: 10px;
 }
 .header_logo p {
