@@ -7,6 +7,9 @@
 @import url("./styles/help.css");
 @import url("./styles/inAddition.css");
 
+html {
+  scroll-behavior: smooth;
+}
 .main {
   margin: 0 auto;
   width: 100%;

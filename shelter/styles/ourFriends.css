@@ -35,6 +35,11 @@
   display: flex;
   flex-direction: column;
   max-width: 270px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.pet_card:hover {
+  transform: scale(1.3);
 }
 .pet_card.main {
   margin: 0 40px;
@@ -53,7 +58,7 @@
   color: var(--mine_shaft);
   cursor: pointer;
 }
-.pet_btn:hover{
+.pet_btn:hover {
   background-color: var(--negroni);
   border: none;
 }
@@ -66,7 +71,7 @@
   color: var(--mine_shaft);
   cursor: pointer;
 }
-.ourFriends_btn button:hover{
+.ourFriends_btn button:hover {
   background-color: var(--negroni);
 }
 .ourFriends_arrow {
@@ -80,7 +85,7 @@
   cursor: pointer;
   padding: 0;
 }
-.ourFriends_arrow:hover{
+.ourFriends_arrow:hover {
   background-color: var(--negroni);
   border: 2px solid var(--negroni);
 }
