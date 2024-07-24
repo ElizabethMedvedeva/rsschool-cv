@@ -4,7 +4,6 @@
     justify-content: space-evenly;
     align-items: center;
     background: radial-gradient(circle at 15% center, #513d2f 0%, #1a1a1c 100%);
-    font-family: var(--Georgia);
     padding-top: 30px;
   }
   .footer_questions {
