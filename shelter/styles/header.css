@@ -6,6 +6,7 @@
   position: sticky;
   width: 1280px;
 }
+
 .header_logo {
   max-width: 184px;
 }
@@ -20,6 +21,16 @@
   font-family: var(--Lato);
   color: var(--white);
   font-size: 13px;
+}
+.header_logo.pets {
+  max-width: fit-content;
+}
+.header_logo.pets h1{
+  color: var(--emperor);
+  font-family: none;
+}
+.header_logo.pets p {
+  color: var(--emperor);
 }
 .header_navigation {
   width: 443px;
@@ -44,4 +55,7 @@
 .header_list a:hover{
     border-bottom: 2px solid var(--mandys_pink);
     color: var(--white);
+}
+.header_list.pets a {
+  color: var(--emperor);
 }
