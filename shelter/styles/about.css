@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px 0;
+  padding-top: 67px;
   font-family: var(--Georgia);
 }
 .about_info {
@@ -12,16 +12,19 @@
 }
 .about_header {
   max-width: 350px;
+  margin-top: 27px;
 }
 .about_header h3 {
   margin-bottom: 25px;
   font-size: 35px;
-  line-height: 64px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
 }
 .about_info p {
   margin: 25px 0;
-  font-family: var(--Lato);
+  font-family: var(--Arial);
   color: var(--tundora);
   font-size: 15px;
-  line-height: 25px;
+  line-height: 160%;
+  max-width: 430px;
 }

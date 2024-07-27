@@ -24,7 +24,7 @@
   line-height: 110%;
 }
 .header_logo p {
-  font-family: var(--Lato);
+  font-family: var(--Arial);
   color: var(--white);
   font-weight: 400;
   font-size: 13px;
@@ -57,7 +57,7 @@
   color: var(--silver);
   text-decoration: none;
   cursor: pointer;
-  font-family: var(--Lato);
+  font-family: var(--Arial);
   font-size: 15px;
   line-height: 160%;
   padding-bottom: 5px;

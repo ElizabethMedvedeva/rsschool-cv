@@ -23,7 +23,7 @@
   font-style: normal;
 }
 .inAddition__info p {
-  font-family: var(--Lato);
+  font-family: var(--Arial);
   color: var(--silver_chalice);
   font-style: italic;
   font-size: 12px;
