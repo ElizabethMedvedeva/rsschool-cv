@@ -30,9 +30,6 @@
 }
 .inAddition_bank {
   background-color: var(--mandys_pink);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   padding: 10px 15px;
   border-radius: 9px;
   margin: 20px 0;
@@ -40,4 +37,8 @@
 .inAddition_bank h4 {
   color: var(--emperor);
   font-size: 20px;
+}
+.payment_link {
+  display: flex;
+  justify-content: space-evenly;
 }

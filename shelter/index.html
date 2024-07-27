@@ -17,7 +17,7 @@
             <header>
                 <div class="header_container">
                     <div class="header_logo">
-                        <a href="" target="_blank">
+                        <a href="">
                             <h1>Cozy House</h1>
                             <p>Shelter for pets Boston</p>
                         </a>
@@ -25,7 +25,7 @@
                     <div class="header_navigation">
                         <nav class="header_nav">
                             <ul class="header_list">
-                                <li><a href="#about">About the shelter</a></li>
+                                <li><a class="active" href="#about">About the shelter</a></li>
                                 <li><a href="pets.html#ourPets">Our pets</a></li>
                                 <li><a href="#help">Help the shelter</a></li>
                                 <li><a href="#contacts">Contacts</a></li>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </header>
-            <section class="notOnly">
+            <section class="notOnly" id="about">
                 <div class="notOnly_container">
                     <div class="notOnly_info">
                         <h2>Not only people need house</h2>
@@ -50,7 +50,7 @@
                 </div>
             </section>
         </div>
-        <section class="about" id="about">
+        <section class="about" >
             <div class="about_container">
                 <div class="about_img">
                     <img src="assets/dog_cat.png" alt="dog_cat">
@@ -183,8 +183,9 @@
                     <h5>Name of the bank / Type of bank account</h5>
                     <div class="inAddition_bank">
                         <a>
-                            <img src="assets/card.png" alt="card">
-                            <h4>8380 2880 8028 8791 7435</h4>
+                            <div class="payment_link"><img src="assets/card.png" alt="card">
+                                <h4>8380 2880 8028 8791 7435</h4>
+                            </div>
                         </a>
                     </div>
                     <p>Legal information and lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -202,14 +203,18 @@
                 <ul>
                     <li>
                         <a href="https://mail.google.com" target="_blank">
-                            <img src="assets/mail.png" alt="mail">
-                            <h5>email@shelter.com</h5>
+                            <div class="footer_link">
+                                <img src="assets/mail.png" alt="mail">
+                                <h5>email@shelter.com</h5>
+                            </div>
                         </a>
                     </li>
                     <li>
-                        <a href="+136745677554" target="_blank">
-                            <img src="assets/phone.png" alt="phone">
-                            <h5>+13 674 567 75 54</h5>
+                        <a href="+136745677554">
+                            <div class="footer_link">
+                                <img src="assets/phone.png" alt="phone">
+                                <h5>+13 674 567 75 54</h5>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -220,15 +225,18 @@
                     <li>
                         <a href="https://www.google.com/maps/search/1+Central+Street,+Boston/@42.331191,-71.0713272,19614m/data=!3m1!1e3?entry=ttu"
                             target="_blank">
-                            <img src="assets/locations.png" alt="location">
-                            <h5>1 Central Street, Boston (entrance from the store) </h5>
+                            <div class="footer_link"><img src="assets/locations.png" alt="location">
+                                <h5>1 Central Street, Boston (entrance from the store) </h5>
+                            </div>
+
                         </a>
                     </li>
                     <li>
                         <a href="https://www.google.com/maps/place/8+S+Park+Rd,+London+SW19+8ST,+UK/@51.4207702,-0.2050947,605m/data=!3m2!1e3!4b1!4m6!3m5!1s0x487608b083e575e5:0x3e1878ce2406436c!8m2!3d51.4207669!4d-0.2025198!16s%2Fg%2F11c1z2cls7?entry=ttu"
                             target="_blank">
-                            <img src="assets/locations.png" alt="mail">
-                            <h5>18 South Park, London</h5>
+                            <div class="footer_link"><img src="assets/locations.png" alt="mail">
+                                <h5>18 South Park, London</h5>
+                            </div>
                         </a>
                     </li>
                 </ul>

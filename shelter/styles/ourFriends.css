@@ -58,6 +58,10 @@
 .pet_card:hover {
   transform: scale(1.2);
 }
+.pet_card:hover .pet_btn {
+  background-color: var(--negroni);
+  border: none;
+}
 .pet_card.pets {
   margin-bottom: 30px;
   transition: all 0.3s ease-in-out;
@@ -82,10 +86,6 @@
   margin: 30px 0;
   color: var(--mine_shaft);
   cursor: pointer;
-}
-.pet_btn:hover {
-  background-color: var(--negroni);
-  border: none;
 }
 .ourFriends_btn button {
   background: var(--mandys_pink);
@@ -136,14 +136,15 @@
   border-radius: 50%;
   border: 2px solid var(--mandys_pink);
   background: var(--white);
-  cursor: pointer;
   color: var(--mine_shaft);
 }
-.round_btn:hover {
+.round_btn.active:hover {
   border: none;
   background: var(--negroni);
+  cursor: pointer;
 }
 .round_btn.inactive {
   color: var(--silver);
   border-color: var(--silver);
+  cursor: not-allowed;
 }

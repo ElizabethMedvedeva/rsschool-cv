@@ -10,10 +10,13 @@
 .header_logo {
   max-width: 184px;
 }
+.header_logo a {
+  text-decoration: none;
+}
 .header_logo h1 {
   font-family: var(--Georgia);
   color: var(--mandys_pink);
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 10px;
   letter-spacing: 0.0333333em;
 }
@@ -53,9 +56,14 @@
     padding: 10px;
 }
 .header_list a:hover{
-    border-bottom: 2px solid var(--mandys_pink);
     color: var(--white);
+}
+.header_list a.active {
+  border-bottom: 2px solid var(--mandys_pink);
 }
 .header_list.pets a {
   color: var(--emperor);
+}
+.header_list.pets a.active {
+  color: var(--mine_shaft);
 }
