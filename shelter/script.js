@@ -16,6 +16,8 @@ document
   .addEventListener("click", function () {
     window.location.href = "index.html";
   });
-document.querySelector("header_nav a[href='#help']").addEventListener("click", function () {
-  window.location.href = "index.html";
-});
+document
+  .querySelector("header_nav a[href='#help']")
+  .addEventListener("click", function () {
+    window.location.href = "index.html";
+  });
