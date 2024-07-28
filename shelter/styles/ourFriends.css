@@ -1,11 +1,22 @@
 .ourFriends_container {
-  background: var(--wild_sand);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 78px;
   font-family: var(--Georgia);
   padding-bottom: 100px;
+  background: var(--wild_sand);
+}
+.ourFriends.pets {
+width: 100%;
+}
+.ourFriends_wrapper {
+  background: var(--wild_sand);
+}
+.ourFriends_container.pets {
+  margin: 0 auto;
+  max-width: 1440px;
+  background: none;
 }
 .ourFriends_main {
   display: flex;
@@ -23,7 +34,7 @@
   max-width: 100%;
 }
 .cards {
-  width: 90%;
+  width: 89%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -160,8 +171,7 @@
   border-color: var(--silver);
   cursor: not-allowed;
 }
-.ourFriends_main.pets{
+.ourFriends_main.pets {
   margin-top: 60px;
   margin-bottom: 29px;
-
 }
