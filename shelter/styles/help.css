@@ -1,0 +1,49 @@
+.help_container {
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 611px;
+  padding-top: 80px;
+  color: var(--emperor);
+  font-family: var(--Georgia);
+}
+.help_header {
+  margin-bottom: 28px;
+  max-width: 310px;
+  color: var(--emperor);
+  text-align: center;
+}
+.help_header h3 {
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+.help_cards {
+  max-width: 1030px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 25px;
+  column-gap: 120px;
+}
+.help_card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.help_card img {
+  max-width: 100%;
+  height: auto;
+}
+.help_card h4 {
+  margin-top: 29px;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.about_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 67px;
+  font-family: var(--Georgia);
+  padding-bottom: 88px;
+}
+.about_info {
+  max-width: 430px;
+  margin-left: 120px;
+  color: var(--emperor);
+}
+.about_header {
+  max-width: 350px;
+  margin-top: 27px;
+}
+.about_header h3 {
+  margin-bottom: 25px;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+.about_info p {
+  margin: 25px 0;
+  font-family: var(--Arial);
+  color: var(--tundora);
+  font-size: 15px;
+  line-height: 160%;
+  max-width: 430px;
+}
