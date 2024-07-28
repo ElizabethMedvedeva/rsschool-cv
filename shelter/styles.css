@@ -1,0 +1,28 @@
+@import url("./styles/variables.css");
+@import url("./styles/header.css");
+@import url("./styles/footer.css");
+@import url("./styles/about.css");
+@import url("./styles/notOnly.css");
+@import url("./styles/ourFriends.css");
+@import url("./styles/help.css");
+@import url("./styles/inAddition.css");
+
+html {
+  scroll-behavior: smooth;
+}
+.main {
+  margin: 0 auto;
+  width: 100%;
+}
+.gradient_container {
+  background: radial-gradient(circle at 15% center, #513d2f 0%, #1a1a1c 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pets_container {
+background: var(--white);
+display: grid;
+place-items: center;
+}

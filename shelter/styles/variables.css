@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Arial 400";
+  src: url("/shelter/assets/fonts/arial/arial-regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Georgia Regular 400";
+  src: url("/shelter/assets/fonts/georgia/georgia-regular.ttf");
+  font-weight: 400;
+}
+:root {
+  --Georgia: "Georgia Regular 400", sans-serif;
+  --Arial: "Arial 400", sans-serif;
+  --mandys_pink: #f1cdb3;
+  --emperor: #545454;
+  --tundora: #4c4c4c;
+  --white: #ffffff;
+  --silver: #cdcdcd;
+  --mine_shaft: #292929;
+  --alabaster: #fafafa;
+  --wild_sand: #f6f6f6;
+  --silver_chalice: #b2b2b2;
+  --negroni: #fddcc4;
+}
