@@ -74,6 +74,9 @@
 .header_list.pets a {
   color: var(--emperor);
 }
+.header_list.pets a:hover {
+  color: black;
+}
 .header_list.pets a.active {
   color: var(--mine_shaft);
 }
