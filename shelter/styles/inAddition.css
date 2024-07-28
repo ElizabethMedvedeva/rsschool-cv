@@ -1,42 +1,51 @@
 .inAddition_container {
   background: var(--wild_sand);
   display: flex;
-  padding: 80px 0;
+  padding-top: 80px;
   align-items: center;
   justify-content: center;
   font-family: var(--Georgia);
+  padding-bottom: 99px;
+}
+.inAddition_img {
+  margin-top: 0px;
 }
 .inAddition__info {
   max-width: 380px;
   margin-left: 30px;
 }
 .inAddition__info h3 {
-  margin: 20px 0;
+  margin: 0px 0 20px 0;
   color: var(--emperor);
   font-size: 35px;
-  font-weight: 400;
-  font-style: normal;
+  line-height: 130%;
+  letter-spacing: 0.06em;
 }
 .inAddition__info h5 {
   color: var(--emperor);
   font-size: 15px;
-  font-style: normal;
+  line-height: 110%;
+  letter-spacing: 0.06em;
 }
 .inAddition__info p {
   font-family: var(--Arial);
   color: var(--silver_chalice);
   font-style: italic;
   font-size: 12px;
+  line-height: 150%;
 }
 .inAddition_bank {
   background-color: var(--mandys_pink);
-  padding: 10px 15px;
+  padding: 10px 1px 10px 2px;
   border-radius: 9px;
   margin: 20px 0;
+  max-width: 349px;
 }
 .inAddition_bank h4 {
   color: var(--emperor);
   font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
 }
 .payment_link {
   display: flex;
