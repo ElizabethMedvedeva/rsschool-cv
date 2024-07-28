@@ -31,14 +31,15 @@
   border: none;
   color: var(--mine_shaft);
   cursor: pointer;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
 
-font-size: 17px;
-line-height: 130%;
-letter-spacing: 0.06em;
 }
 .notOnly_btn:hover {
   background-color: var(--negroni);
-}
-.notOnly_img {
-  /* padding-top: 115px; */
 }
