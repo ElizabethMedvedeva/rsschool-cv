@@ -3,41 +3,47 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 611px;
-  padding: 60px 0;
+  padding-top: 80px;
   color: #545454;
   font-family: var(--Georgia);
 }
 .help_header {
-  margin-bottom: 60px;
-  max-width: 308px;
+  margin-bottom: 19px;
+  max-width: 310px;
   color: var(--emperor);
   text-align: center;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
 }
 .help_header h3 {
   font-size: 35px;
 }
 .help_cards {
- max-width: 1026px;
- display: flex;
- flex-wrap: wrap;
- align-items: center;
- justify-content: center;
+  max-width: 1026px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 89px;
 }
 .help_card {
-  padding: 20px;
+  padding: 19px 15px;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 20px 30px;
+  margin: 20px 35px -5px 30px;
 }
 .help_card img {
   max-width: 100%;
   height: auto;
 }
 
-.help_card p {
-  margin-top: 28px;
+.help_card h4 {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
 }
