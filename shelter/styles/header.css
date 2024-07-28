@@ -7,6 +7,9 @@
   width: 1200px;
   margin-bottom: 60px;
 }
+.header_container.pets{
+  margin-bottom: 0px;
+}
 .header_logo {
   max-width: 184px;
   height: 60px;

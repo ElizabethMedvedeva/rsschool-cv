@@ -135,7 +135,7 @@
 }
 .pets_btn {
   display: flex;
-  width: 340px;
+  width: 360px;
   justify-content: space-around;
 }
 .round_btn {
@@ -155,4 +155,9 @@
   color: var(--silver);
   border-color: var(--silver);
   cursor: not-allowed;
+}
+.ourFriends_main.pets{
+  margin-top: 60px;
+  margin-bottom: 29px;
+
 }
