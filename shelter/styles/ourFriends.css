@@ -91,7 +91,7 @@
   letter-spacing: 0.06em;
   margin-bottom: 29px;
 }
-.ourFriends_btn button {
+.getToKnow {
   background: var(--mandys_pink);
   border: none;
   border-radius: 100px;
@@ -102,8 +102,12 @@
   font-size: 17px;
   line-height: 130%;
   letter-spacing: 0.06em;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 15px;
+  display: block;
 }
-.ourFriends_btn button:hover {
+.ourFriends_btn a:hover {
   background-color: var(--negroni);
 }
 .ourFriends_arrow {
