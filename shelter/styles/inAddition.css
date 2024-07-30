@@ -41,13 +41,24 @@
   margin: 20px 0;
   max-width: 349px;
 }
+.inAddition_bank:hover {
+  background-color: var(--negroni);
+  transition: 0.3s;
+}
 .inAddition_bank h4 {
   color: var(--emperor);
   font-size: 20px;
   line-height: 115%;
   letter-spacing: 0.06em;
 }
+.inAddition_bank h4:hover {
+  color: black;
+  transition: 0.3s;
+}
 .payment_link {
   display: flex;
   justify-content: space-evenly;
+}
+.payment {
+  text-decoration: none;
 }

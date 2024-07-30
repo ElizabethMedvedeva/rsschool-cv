@@ -44,11 +44,14 @@
   font-size: 20px;
   line-height: 115%;
   letter-spacing: 0.06em;
+  transition: 0.3s;
+}
+.footer_questions li h5:hover {
+  color: var(--negroni);
 }
 .footer_questions a {
   text-decoration: none;
   width: 100%;
-  /* padding: 0px 26px 6px 0px; */
 }
 .footer_locations {
   max-width: 305px;
@@ -77,10 +80,13 @@
   line-height: 115%;
   letter-spacing: 0.06em;
 }
+.footer_locations li h5:hover {
+  color: var( --negroni);
+  transition: 0.3s;
+}
 .footer_locations li img {
   max-height: 32px;
 }
-
 .footer_locations a {
   text-decoration: none;
   width: 100%;
