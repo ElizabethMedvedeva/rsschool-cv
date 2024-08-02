@@ -48,6 +48,7 @@
 }
 .footer_questions li h5:hover {
   color: var(--negroni);
+  transition: 0.3s;
 }
 .footer_questions a {
   text-decoration: none;

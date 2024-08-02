@@ -67,15 +67,19 @@
 }
 .header_list a:hover {
   color: var(--white);
+  transition: 0.3s;
 }
 .header_list a.active {
   border-bottom: 2px solid var(--mandys_pink);
+  color: var(--silver);
+  cursor: unset;
 }
 .header_list.pets a {
   color: var(--emperor);
 }
 .header_list.pets a:hover {
   color: black;
+  transition: 0.3s;
 }
 .header_list.pets a.active {
   color: var(--mine_shaft);

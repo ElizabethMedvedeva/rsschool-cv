@@ -42,4 +42,5 @@
 }
 .notOnly_btn:hover {
   background-color: var(--negroni);
+  transition: 0.3s;
 }

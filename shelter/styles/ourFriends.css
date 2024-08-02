@@ -71,6 +71,7 @@ width: 100%;
 .pet_card:hover .pet_btn {
   background-color: var(--negroni);
   border: none;
+  transition: 0.3s;
 }
 .pet_card.pets {
   margin-bottom: 30px;
@@ -120,6 +121,7 @@ width: 100%;
 }
 .ourFriends_btn a:hover {
   background-color: var(--negroni);
+  transition: 0.3s;
 }
 .ourFriends_arrow {
   display: inline-block;
@@ -136,6 +138,7 @@ width: 100%;
 .ourFriends_arrow:hover {
   background-color: var(--negroni);
   border: 2px solid var(--negroni);
+  transition: 0.3s;
 }
 .ourFriends_arrow img {
   position: absolute;
@@ -165,6 +168,7 @@ width: 100%;
   border: none;
   background: var(--negroni);
   cursor: pointer;
+  transition: 0.3s;
 }
 .round_btn.inactive {
   color: var(--silver);
