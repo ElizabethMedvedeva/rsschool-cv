@@ -23,6 +23,21 @@
 - Javascript
 - VS Code
 
+### CODE EXAMPLES
+
+```JavaScript
+function rgb(r, g, b) {
+  function clamp(value){
+    return Math.max(0, Math.min(255, value))
+  }
+  function componentToHex (c) {
+    const hex = clamp(c).toString(16).toUpperCase();
+    return hex.length == 1 ? "0" + hex : hex;
+  }
+ return componentToHex(r) + componentToHex(g) + componentToHex(b)
+}
+```
+
 ### EXPERIENCES
 
 - [Shelter Project](https://rolling-scopes-school.github.io/elizabethmedvedeva-JSFEPRESCHOOL2024Q2/shelter/) / HTML, CSS, JS 
