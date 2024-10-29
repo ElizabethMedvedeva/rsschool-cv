@@ -79,7 +79,7 @@
 .professionalSkillsDiv ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 .detailsContainer ul {
   list-style-type: circle;
@@ -92,6 +92,10 @@
 }
 .professionalSkillsDiv li {
   font-family: "Playfair Display", serif;
+}
+.skills-ul {
+    display: flex;
+    flex-direction: column;
 }
 .educationDiv {
   margin-bottom: 20px;
@@ -122,14 +126,18 @@
 .finishedProjectDiv ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 .finishedProjectDiv li {
-  margin: 5px 0;
+  margin: 2px 0;
   font-family: "Playfair Display", serif;
 }
 .finishedProjectDiv a {
   color: #000000;
+}
+.projects-ul {
+    display: flex;
+    flex-direction: column;
 }
 .codeExampleDiv pre {
   margin-left: -110px;
