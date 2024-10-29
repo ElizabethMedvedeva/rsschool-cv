@@ -1,261 +1,260 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Mono:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Mono:wght@700&display=swap");
 .mainContainer {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 1024px;
-  }
-  .infoContainer {
-    background-color: #bcb9d8;
-    width: 35%;
-    padding-bottom: 21px;
-  }
-  .avatarPhoto {
-    border-radius: 150px;
-    border: solid 5px #5b618b;
-    margin: 25px 0;
-  }
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
-    text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1024px;
+}
+.infoContainer {
+  background-color: #bcb9d8;
+  width: 35%;
+  padding-bottom: 21px;
+}
+.avatarPhoto {
+  border-radius: 150px;
+  border: solid 5px #5b618b;
+  margin: 25px 0;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.header h1 {
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+.header h2 {
+  margin: 10px 0;
+  font-family: "Roboto Mono", monospace;
+}
+.contactsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactsDiv h2 {
+  color: #5b618b;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
+}
+.contactsDiv li {
+  margin: 15px 0;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+}
+.about h2 {
+  color: #5b618b;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
+}
+.about p {
+  margin: 15px 0;
+  width: 60%;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+}
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  width: 65%;
+}
+.detailsContainer h2 {
+  color: #5b618b;
+  text-transform: uppercase;
+  border-bottom: 2px solid #5b618b;
+  font-family: "Roboto Mono", monospace;
+}
+.professionalSkillsDiv ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.detailsContainer ul {
+  list-style-type: circle;
+}
+.professionalSkillsDiv {
+  margin-bottom: 20px;
+}
+.professionalSkillsDiv h2 {
+  margin-bottom: 20px;
+}
+.professionalSkillsDiv li {
+  font-family: "Playfair Display", serif;
+}
+.educationDiv {
+  margin-bottom: 20px;
+}
+.education h4 {
+  margin: 10px 0 5px 0;
+}
+.education a {
+  color: #000000;
+}
+.education p {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+}
+.languages {
+  margin-bottom: 20px;
+}
+.languages li {
+  margin: 5px 0;
+  font-family: "Playfair Display", serif;
+}
+.finishedProjectDiv h2 {
+  color: #5b618b;
+  text-transform: uppercase;
+  border-bottom: 2px solid #5b618b;
+  font-family: "Roboto Mono", monospace;
+}
+.finishedProjectDiv ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.finishedProjectDiv li {
+  margin: 5px 0;
+  font-family: "Playfair Display", serif;
+}
+.finishedProjectDiv a {
+  color: #000000;
+}
+.codeExampleDiv pre {
+  margin-left: -110px;
+}
+.footerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #545454;
+  padding: 25px;
+  width: 1024px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+.footerLinks {
+  max-height: 45px;
+  width: auto;
+}
+.footerLinks a {
+  text-decoration: none;
+}
+.footerLinks {
+  height: 50px;
+  width: 50px;
+}
+.footerLinks p {
+  color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+.rsschoolLogo {
+  width: 80px;
+  height: auto;
+  filter: invert(1);
+}
+
+@media screen and (max-width: 1024px) {
+  .mainContainer {
+    width: 900px;
   }
   .header h1 {
-    font-family: "Roboto Mono", monospace;
-    text-transform: uppercase;
-    font-size: 26px;
+    font-size: 20px;
   }
   .header h2 {
-    margin: 10px 0;
-    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
   }
   .contactsDiv {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0 10px;
   }
-  .contactsDiv h2 {
-    color: #5b618b;
-    text-transform: uppercase;
-    font-family: "Roboto Mono", monospace;
+  .codeExampleDiv pre {
+    margin-left: -150px;
   }
-  .contactsDiv li {
-    margin: 15px 0;
+  .footerDiv {
+    width: 900px;
   }
-  .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 50px 0;
+}
+@media screen and (max-width: 900px) {
+  .mainContainer {
+    width: 750px;
   }
-  .about h2 {
-    color: #5b618b;
-    text-transform: uppercase;
-    font-family: "Roboto Mono", monospace;
-  }
-  .about p {
-    margin: 15px 0;
-    width: 60%;
-    font-family: "Playfair Display", serif;
-    font-size: 15px;
+  .infoContainer {
+    width: 40%;
   }
   .detailsContainer {
-    display: flex;
+    width: 60%;
+  }
+  .contactsDiv ul {
+    padding-inline-start: 10px;
+  }
+  .codeExampleDiv pre {
+    font-size: smaller;
+    margin-left: -160px;
+  }
+  .footerDiv {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .mainContainer {
     flex-direction: column;
-    padding: 0px 10px;
-    width: 65%;
+    width: 100%;
   }
-  .detailsContainer h2 {
-    color: #5b618b;
-    text-transform: uppercase;
-    border-bottom: 2px solid #5b618b;
-    font-family: "Roboto Mono", monospace;
+  .infoContainer {
+    width: 100%;
   }
-  .professionalSkillsDiv ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  .header h1 {
+    font-size: 25px;
   }
-  .detailsContainer ul {
-    list-style-type: circle;
+  .header h2 {
+    font-size: 22px;
   }
-  .professionalSkillsDiv {
-    margin-bottom: 20px;
-  }
-  .professionalSkillsDiv h2{
-    margin-bottom: 20px;
-  }
-  .professionalSkillsDiv li {
-    font-family: "Playfair Display", serif;
-  }
-  .educationDiv {
-    margin-bottom: 20px;
-  }
-  .education h4 {
-    margin: 10px 0 5px 0;
-  }
-  .education a {
-    color: #000000;
-  }
-  .education p {
-    font-family: "Playfair Display", serif;
-    font-size: 15px;
-  }
-  .languages {
-    margin-bottom: 20px;
-  }
-  .languages li {
-    margin: 5px 0;
-    font-family: "Playfair Display", serif;
-  }
-  .finishedProjectDiv h2 {
-    color: #5b618b;
-    text-transform: uppercase;
-    border-bottom: 2px solid #5b618b;
-    font-family: "Roboto Mono", monospace;
-  }
-  .finishedProjectDiv ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .finishedProjectDiv li {
-    margin: 5px 0;
-    font-family: "Playfair Display", serif;
-  }
-  .finishedProjectDiv a {
-    color: #000000;
+  .detailsContainer {
+    width: 100%;
   }
   .codeExampleDiv pre {
     margin-left: -110px;
+    font-size: medium;
   }
   .footerDiv {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #545454;
-    padding: 25px;
-    width: 1024px;
-    margin: 0 auto;
-    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    width: 100%;
   }
-  .footerLinks {
-    max-height: 45px;
-    width: auto;
+}
+@media screen and (max-width: 610px) {
+  .codeExampleDiv pre {
+    margin-left: -112px;
+    font-size: 12px;
   }
-  .footerLinks a {
-    text-decoration: none;
+}
+@media screen and (max-width: 560px) {
+  .codeExampleDiv pre {
+    margin-left: -168px;
+    font-size: 12px;
   }
-  .footerLinks {
-    height: 50px;
-    width: 50px;
+}
+@media screen and (max-width: 505px) {
+  .codeExampleDiv pre {
+    margin-left: -150px;
+    font-size: 10px;
   }
-  .footerLinks p {
-    color: #ffffff;
-    font-family: "Roboto Mono", monospace;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 10px;
+}
+@media screen and (max-width: 430px) {
+  .codeExampleDiv pre {
+    margin-left: -112px;
+    font-size: 7.5px;
   }
-  .rsschoolLogo {
-    width: 80px;
-    height: auto;
-    filter: invert(1);
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .mainContainer {
-      width: 900px;
-    }
-    .header h1 {
-      font-size: 20px;
-    }
-    .header h2 {
-      font-size: 18px;
-    }
-    .contactsDiv {
-      margin: 0 10px;
-    }
-    .codeExampleDiv pre {
-        margin-left: -150px;
-    }
-    .footerDiv {
-      width: 900px;
-    }
-  }
-  @media screen and (max-width: 900px) {
-    .mainContainer {
-      width: 750px;
-    }
-    .infoContainer {
-        width: 40%;
-    }
-    .detailsContainer {
-      width: 60%;
-    }
-    .contactsDiv ul {
-        padding-inline-start: 10px;
-    }
-    .codeExampleDiv pre {
-        font-size: smaller;
-      margin-left: -160px;
-    }
-    .footerDiv {
-      width: 750px;
-    }
-  }
-  @media screen and (max-width: 720px) {
-    .mainContainer {
-      flex-direction: column;
-      width: 100%;
-    }
-    .infoContainer {
-      width: 100%;
-    }
-    .header h1 {
-      font-size: 25px;
-    }
-    .header h2 {
-      font-size: 22px;
-    }
-    .detailsContainer {
-      width: 100%;
-    }
-    .codeExampleDiv pre {
-      margin-left: -110px;
-      font-size: medium;
-    }
-    .footerDiv {
-      width: 100%;
-    }
-  }
-  @media screen and (max-width: 610px) {
-    .codeExampleDiv pre {
-      margin-left: -112px;
-      font-size: 12px;
-    }
-  }
-  @media screen and (max-width: 560px) {
-    .codeExampleDiv pre {
-      margin-left: -168px;
-      font-size: 12px;
-    }
-  }
-  @media screen and (max-width: 505px) {
-    .codeExampleDiv pre {
-      margin-left: -150px;
-      font-size: 10px;
-    }
-  }
-  @media screen and (max-width: 430px) {
-    .codeExampleDiv pre {
-      margin-left: -112px;
-      font-size: 7.5px;
-    }
-  }
-
+}
