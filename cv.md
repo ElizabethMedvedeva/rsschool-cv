@@ -2,9 +2,9 @@
 
 ### CONTACT
 
-- __Location:__ Vilnius, Lithuania 
-- __Phone:__ +37061676086
-- __Email:__ elizabeth.medvedeva12@gmail.com
+- **Location:** Vilnius, Lithuania
+- **Phone:** +37061676086
+- **Email:** elizabeth.medvedeva12@gmail.com
 
 ### ABOUT
 
@@ -40,9 +40,9 @@ function rgb(r, g, b) {
 
 ### EXPERIENCES
 
-- [Shelter Project](https://rolling-scopes-school.github.io/elizabethmedvedeva-JSFEPRESCHOOL2024Q2/shelter/) / HTML, CSS, JS 
-- [Image Gallery](https://rolling-scopes-school.github.io/elizabethmedvedeva-JSFEPRESCHOOL2024Q2/image-gallery/) / HTML, CSS, JS 
-- [Audio Player](https://rolling-scopes-school.github.io/elizabethmedvedeva-JSFEPRESCHOOL2024Q2/audio-player/) / HTML, CSS, JS 
+- [Shelter Project](https://rolling-scopes-school.github.io/elizabethmedvedeva-JSFEPRESCHOOL2024Q2/shelter/) / HTML, CSS, JS
+- [Image Gallery](https://rolling-scopes-school.github.io/elizabethmedvedeva-JSFEPRESCHOOL2024Q2/image-gallery/) / HTML, CSS, JS
+- [Audio Player](https://rolling-scopes-school.github.io/elizabethmedvedeva-JSFEPRESCHOOL2024Q2/audio-player/) / HTML, CSS, JS
 - [Tetris](https://rolling-scopes-school.github.io/elizabethmedvedeva-JSFEPRESCHOOL2024Q2/random-game/) / HTML, CSS, JS
 - [Layout Project](https://elizabethmedvedeva.github.io/mogo-project/dist/index.html) / HTML, LESS / [GitHub](https://github.com/ElizabethMedvedeva/mogo-project)
 - [Weather App](https://elizabethmedvedeva.github.io/weather_forecast/) / React, Redux, Axios, Typescript / [GitHub](https://github.com/ElizabethMedvedeva/weather_forecast)
