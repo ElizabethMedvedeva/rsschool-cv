@@ -76,13 +76,12 @@
   border-bottom: 2px solid #5b618b;
   font-family: "Roboto Mono", monospace;
 }
-.professionalSkillsDiv ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-.detailsContainer ul {
+.skills-ul,
+.projects-ul {
+  columns: 2;
+  column-gap: 20px;
   list-style-type: circle;
+  margin-left: 20px;
 }
 .professionalSkillsDiv {
   margin-bottom: 20px;
@@ -90,12 +89,11 @@
 .professionalSkillsDiv h2 {
   margin-bottom: 20px;
 }
+.professionalSkillsDiv ul  {
+    margin-left: 20px;
+}
 .professionalSkillsDiv li {
   font-family: "Playfair Display", serif;
-}
-.skills-ul {
-    display: flex;
-    flex-direction: column;
 }
 .educationDiv {
   margin-bottom: 20px;
@@ -124,9 +122,7 @@
   font-family: "Roboto Mono", monospace;
 }
 .finishedProjectDiv ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+    margin-left: 20px;
 }
 .finishedProjectDiv li {
   margin: 2px 0;
@@ -134,10 +130,6 @@
 }
 .finishedProjectDiv a {
   color: #000000;
-}
-.projects-ul {
-    display: flex;
-    flex-direction: column;
 }
 .codeExampleDiv pre {
   margin-left: -110px;
